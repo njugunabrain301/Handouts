@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#other{
+    background-color: #202020;
+}
+html{
+    height: 100%;
+    background-color: darkgray;
+    width: 100%;
+    min-width: 700px;
+}
+.content{
+    overflow: auto;
+}
+h1{
+    padding-top: 50px;
+    font-size: 30pt;
+    color: darkgrey;
+}
+#fil{
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+#search{ 
+    float: left;
+    height: 50px;
+}
+.custom{
+    height: 30px;
+}
+body .links{
+    margin-top: 0px;
+}
+#upl{
+    margin-top: 0px;
+}
+.links a{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    background-color: #909090;
+    float: left;
+}
+.lb{
+    margin-bottom: 20px;
+}
+.upload{
+    animation: nav 1000ms forwards;
+    width: 400px;
+    height: 550px;
+    background-color: darkgrey;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.login a{
+    color: black;
+}
+#info{
+    width: 100%;
+    float: left;
+    background-color: darkgrey;
+    font-style: italic;
+}
+.perror{
+    text-align: center;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.luser{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.serror{
+    text-align: center;
+    font-size: 10pt;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: -17px;
+}
+.error{
+    text-align: center;
+    position: absolute;
+    font-size: 10pt;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    margin-top: -17px;
+}
+.psuccess{
+    font-size: 16;
+    color: green;
+    font-weight: 400;
+}
+#psname{
+    font-size: 11pt;
+    color: black;
+    width: 400px;
+    font-weight: 100;
+}
+.pfail{
+    font-size: 16pt;
+    color: red;
+    font-weight: 400pt;
+}
+.fuser{
+    margin-bottom: 10px;
+    width: 100px;
+}
+.floater{
+    margin-left: 20px;
+    float: left;
+}
+.ubottom{
+    width: 100%;
+    float: left;
+}
+.bottom{
+    margin-left: 20px;
+    width: 100%;
+    float: left;
+}
+.Rn{
+    animation: nav 1000ms forwards;
+    display: none;
+}
+.signup{
+    animation: nav 1000ms forwards;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    background-color: darkgrey;
+}
+.loggedIn{
+    padding-left: 10px;
+    color: darkgrey;
+    background-color: #202020;
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+.login{
+    animation: nav 1000ms forwards;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    margin-top: 125px;
+    background-color: darkgrey;
+}
+#title{
+    color: darkgrey;
+    padding-top: 0px;
+    text-align: center;
+}
+@keyframes nav{
+    0%{
+        filter: opacity(0%);
+        top: 5px;
+        opacity: 0;
+    }
+    100%{
+        filter: opacity(100%);
+        top: 0px;
+        opacity: 1;
+    }
+}
+#Rn{
+    animation: nav 1000ms forwards;   
+}
+.hideFilter{
+    animation: nav 1000ms forwards;
+    width: 100%;
+    max-height: 0px;
+    display: none;
+    -webkit-transition: position 2.7s;
+    -moz-transition: position 2.7s;
+    transition: position 2.7s;
+}
+.showFilter{
+    animation: nav 1000ms forwards;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding: 20px;
+    width: 100%;
+    max-height: 150px;
+    color: darkgrey;
+    background-color: #303030;
+    float: left;
+    display:block;
+   -webkit-transition: position 2.7s;
+    -moz-transition: position 2.7s;
+    transition: position 2.7s;
+}
+.content{
+    animation: frame 1000ms forwards;
+    width: 100%;
+    float: left;
+    -webkit-transition: margin-top 1.7s;
+    -moz-transition: margin-top 1.7s;
+    transition: margin-top 1.7s;
+}
+form{
+    margin: 0px;
+}
+#logInBody{
+    background-size: cover;
+}
+img{
+    margin-top: -40px;
+    margin-right: -60px;
+    float: right;
+    height: 20%;
+}
+.hts{
+    padding: 10px;
+    margin-top: 7px;
+    width: 900px;
+    height: 100px;
+    background-color:blanchedalmond;
+    color: #606060;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 10pt;
+    overflow: hidden;
+}
+.hts p{
+    text-overflow: ellipsis;
+    text-align: left;
+}
+.hts a{
+    width: 480px;
+    text-overflow: ellipsis;
+    font-size: 12pt;
+    font-style: normal;
+}
+.top{
+    margin: 0px;
+    padding: 20px;
+    height: inherit;
+    background-color: #202020;
+    height: relative;
+}
+body{
+    margin: 0px;
+}
+.inright{
+    position: sticky;
+    float: right;
+    margin-top: -50px;
+    margin-right: 300px;
+}
+.inright a{
+    margin-left: 15px;
+}
+@media screen and (max-width:900px){
+    .inright{
+        margin-right: 200px;
+    }
+}
+@media screen and (max-width:1200px){
+    .hts{
+        width: 700px;
+    }
+    .inright{
+        margin-right: 300px;
+    }
+}
+@media screen and (max-width:800px){
+    .hts{
+        width: 500px;
+    }
+    .inright{
+        margin-right: 150px;
+    }
+}
